@@ -35,45 +35,57 @@ Celem projektu jest zrealizowanie prostej aplikacji desktopowej w języku C#, pr
 
 ## Aspekty organizacyjne
 
-* projekt realizowany jest w grupach 2- lub 3-osobowych (projekty jednoosobowe wyłącznie za zgoda prowadzącego zajęcia, w wyjątkowych sytuacjach)
-* projekt musi być realizowany z wykorzystaniem GitHub jako repozytorium kodu i dokumentacji
-* w momencie oddania projektu do oceny, repozytorium GitHub musi być publiczne, a jego adres przekazany oceniającemu.
-* grupa studentów wybiera lidera
-* lider tworzy repozytorium na GitHub
-* lider odpowiedzialny jest za  
+* projekt realizowany jest w grupach 2- lub 3-osobowych (projekty jednoosobowe wyłącznie za zgoda prowadzącego zajęcia, w wyjątkowych sytuacjach),
+* projekt musi być realizowany z wykorzystaniem GitHub jako repozytorium kodu i dokumentacji,
+* do momentu zakończenia projektu (jego ocenienia), repozytorium GitHub **musi być publiczne**, a jego adres przekazany oceniającemu. Oceniający **musi** mieć możliwość śledzenia rozwoju projektu,
+* grupa studentów wybiera lidera,
+* lider tworzy repozytorium na GitHub i dodaje pozostałych członków zespołu,
+* zespół umawia się co do zasada komunikowania się i aktualizacji repozytorium (sugeruję unikanie pracy równoczesnej z projektem)
+* lider odpowiedzialny jest za realizację projektu 
 
 ## Temat projektu
 
 Ze względu na złożoność dodatkowych zadań do wykonania (prowadzenie projektu na GitHub, dokumentacja, ...), aplikacja nie musi być "duża" i skomplikowana.
 
 Temat projektu studenci ustalają samodzielnie.
-Może to być prosta gra logiczna (np. [saper](http://gra-saper.pl/)) lub zręcznościowa - zachęcam do przeglądania repozytoriów _Microsoft Store_ lub _Google Play_ dla naśladownictwa.
+Może to być prosta gra logiczna (np. [saper](http://gra-saper.pl/), kółko i krzyżyk na plan większej niż 3x3, sudoku, ...) lub zręcznościowa - zachęcam do przeglądania repozytoriów _Microsoft Store_ lub _Google Play_ dla ewentualnego naśladownictwa.
 
-Może to być prosta aplikacja użytkowa.
+Może to być prosta aplikacja użytkowa (np. wyszukiwarka zduplikowanych zdjęć na dysku czy wskazanym katalogu, ..).
 
-Studenci specjalności BI mogą zrealizować prostą aplikację CRUD dla bazy danych (MS SQL Express, sugerowany `SQLite`).
+Studenci specjalności BI mogą zrealizować prostą aplikację bazodanową (z MS SQL Express, sugerowany `SQLite`), np. katalogowanie e-booków czy audiobooków, ... .
+
+Temat projektu nie musi być unikalny, ale jego realizacja **NIE MOŻE BYĆ PLAGIATEM**. Jeśli temat, koncepcja, czy nawet fragmenty kodu będą zapożyczone, należy to wyraźnie zapisać zarówno w kodzie, jak i w dokumentacji.
+
+Możliwe jest wykorzystanie dostępnych bibliotek (spoza standardu języka/.NET). Należy ten fakt opisać w dokumentacji. Jednak w projektowanej aplikacji musi być wyodrębniona cześć odpowiedzialna za jej logikę (która np. korzysta z zewnętrznych bibliotek).
+
+Projekt może być rozwinięciem lub oddzielną odnogą (_fork_) istniejącego projektu na GitHub - byle spełniał ogólne założenia (aplikacja desktopowa, WPF, XAML, ...).
 
 ## Zasady i kryteria oceny
 
 Kryteria oceny projektu:
 
-* oryginalność projektu
-* jakość kodu
-* kompletność kodu
-* jakość dokumentacji kodu
-* estetyka aplikacji
-* sposób prowadzenia projektu na GitHub
-* dokumentowanie projektu na GitHub
-* współpraca w realizacji projektu (monitorowana na GitHub)
+* oryginalność projektu - 10%
+* jakość kodu - 30%
+* kompletność kodu - 20%
+* jakość dokumentacji kodu - 10%
+* estetyka aplikacji - 10%
+* sposób prowadzenia projektu na GitHub - 10%
+* dokumentowanie projektu na GitHub - 10%
+* współpraca w realizacji projektu (monitorowana na GitHub) - 10%
+
+Lider zespołu zgłasza - najwcześniej jak to jest możliwe - temat projektu, współautorów oraz link do projektu prowadzonego na GitHub w ramach specjalnego forum dyskusyjnego dotyczącego projektu zamieszczonego na stronach kursu na platformie e.wsei.edu.pl
+
+Następnie zespół realizuje projekt, zatwierdzając regularnie poprawki na GitHub.
 
 Lider zespołu, w wyznaczonym terminie, przesyła kopię (archiwum ZIP) projektu prowadzonego na GitHub (_clone_) do oceny, za pośrednictwem platformy edukacyjnej e.wsei.edu.pl - we wskazanym przez prowadzącego zajęcia miejscu. W wyświetlonym formularzu podaje:
+
 * link do projektu na GitHub
 * listę współautorów
 * oświadczenie współautorów o procentowym udziale w realizacji projektu (do podziału 100%) wraz z wykazem realizowanych zadań w ramach projektu
 
 
 
-- - - - - -
+- - -
 
 ## Referencje
 
@@ -81,4 +93,3 @@ Lider zespołu, w wyznaczonym terminie, przesyła kopię (archiwum ZIP) projektu
 * [Windows Presentation Foundation @MSDN](https://docs.microsoft.com/en-us/dotnet/framework/wpf/)
 * [Universal Windows Platform documentation](https://docs.microsoft.com/en-us/windows/uwp/index)
 * [Fluent Design System](https://www.microsoft.com/design/fluent/)
-
